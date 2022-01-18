@@ -1,2 +1,2 @@
-# maddievasquez.github.io
+# maddie-vasquez.github.io
 Web Design Development
