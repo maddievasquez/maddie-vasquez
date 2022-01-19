@@ -154,7 +154,7 @@ body { font-family: 'Heebo', sans-serif; }
 .container-menu a#btn-cta:focus,
 .container-menu a#btn-cta:hover,
 .container-menu a#btn-cta:active { color: var(--black-000) }
-.container-menu.menu-desktop { background-color: var(--yellow-100) }
+.container-menu.menu-desktop { background-color: var(--white-000) }
 .container-menu.menu-mobile { background-color: var(--gray-200) }
 .container-menu.menu-mobile ul.mobile-display { background-color: var(--gray-200) }
 
