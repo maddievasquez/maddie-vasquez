@@ -143,7 +143,7 @@ body { font-family: 'Heebo', sans-serif; }
 .container-menu a:visited { color: var(--pink-900) }
 .container-menu a:focus,
 .container-menu a:hover,
-.container-menu a:active { color: var(--ontrend-600) }
+.container-menu a:active { color: var(--purple-400) }
 .container-menu a#btn-cta:link,
 .container-menu a#btn-cta:visited { background-color: var(--black-000) }
 .container-menu a#btn-cta:focus,
@@ -163,3 +163,4 @@ body { font-family: 'Heebo', sans-serif; }
     padding-left: 05px;
     font-size: 45px;
 }
+

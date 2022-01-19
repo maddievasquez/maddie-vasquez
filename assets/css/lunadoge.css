@@ -68,7 +68,7 @@ header.hero-block {
 }
 
 /* Headings */
-.hero-block h1, .hero-block h2 { color: var(--white-000) }
+.hero-block h1, .hero-block h2 { color: var(--yellow-100) }
 .hero-block h1 { line-height: 1.1 }
 .hero-block h2 { line-height: 1.2 }
 
@@ -938,7 +938,7 @@ On large screens (and sometimes small screens too), the div child elements are t
     line-height: 1.2;
     letter-spacing: -1px;
     margin-top: -12px;
-    color: var(--gray-600);
+    color: var(--gray-700);
 }
 
 /* Adjust upper block h2 and h3 letter-spacing for mobiles */
@@ -1630,15 +1630,15 @@ button > *:nth-child(2) { margin-left: 14px; margin-right: 0 }
 /* Primary buttons */
 .btn-primary:link, 
 .btn-primary:visited {
-    border: solid 2px #1f364d; 
+    border: solid 2px #59359a; 
     color: #fff; 
-    background-color: #1f364d; 
+    background-color: #59359a; 
 } 
 
 a.btn-primary:focus, 
 a.btn-primary:hover, 
 a.btn-primary:active  {
-    border: solid 2px var(--gray-700); 
+    border: solid 2px var(--purple-400); 
     /* background-color: var(--gray-700);   */
     color: #fff;
 }
@@ -1659,8 +1659,8 @@ a.btn-secondary:active,
 a.btn-ghost:focus, 
 a.btn-ghost:hover, 
 a.btn-ghost:active {
-    border: solid 2px var(--gray-700); 
-    background-color: var(--gray-700);  
+    border: solid 2px var(--purple-400); 
+    background-color: var(--purple-400);  
     color: #fff;
 }
 
@@ -1695,7 +1695,7 @@ a.btn-ghost:active {
 
 /* All screens */
 #contact-form {
-    background-color: var(--gray-200);
+    background-color: var(--yellow-100);
 }
 
 /* Desktop */
@@ -1891,7 +1891,7 @@ a.btn-ghost:active {
 
 footer { 
     text-align: center;
-    background-color: var(--ontrend-800);
+    background-color: var( --purple-400);
 }
 
 /* Footer headings */
