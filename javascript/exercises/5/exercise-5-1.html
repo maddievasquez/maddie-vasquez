@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,22 +11,26 @@
     <!-- Customise Bootstrap for practical grid layouts -->
     <link rel="stylesheet" href="../assets/css/bootstrap-custom.css">
     <style>
-        .container { padding-top: 40px }
+        .container {
+            padding-top: 40px
+        }
+
         .js-box {
-            border:solid 1px yellow;
-            padding:20px;
+            border: solid 1px yellow;
+            padding: 20px;
             background-color: lightyellow;
             margin-bottom: 48px;
             font-size: larger;
         }
-        #resultBox, #resultNum {
+
+        #resultBox,
+        #resultNum {
             border: solid 1px green;
             height: 40px;
             background-color: #E7FFE7;
             width: 280px;
             padding: 3px 12px;
         }
-       
     </style>
 
 </head>
@@ -35,27 +40,28 @@
     <div class="container col-md-8 offset-md-2">
         <h1><b>Exercise 5-1</b>: Javascript User Input</h1>
         <p>This script captures and displays a value data entered by users.</p>
-        
+
         <h3>Display User Input</h3>
         <div class="js-box">
-           
+
             <p>First Name: &nbsp;<input type="text" id="fName"></p>
-            
+            <p><button onclick="showUserInput()">Show user input</button></p>
             <p>You entered: </p>
             <div id="resultBox"></div>
- 
+
         </div>
 
-  
+
     </div>
 
-    
+
     <script>
         function showUserInput() {
             /* Place the first name from the input field in a variable */
-
+            let userInput = document.getElementById("fName").value;
             /* Display the value on the web pageo */
-;
+            document.getElementById("resultBox").innerHTML = "<b>" + userInput + "<\/b>";
+            ;
         }
     </script>
 
@@ -66,4 +72,5 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
