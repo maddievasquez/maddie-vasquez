@@ -11,25 +11,25 @@ header.hero-block a.btn-secondary:visited { border-color: var(--black-000) }
 
 
 
- header.hero-block h1 { color: var(--black-000) }
-header.hero-block h2 { color: var(--black-000) }
-header.hero-block a.btn-secondary:link,
-header.hero-block a.btn-secondary:visited { color: var(--black-000) }
+#hero-2 header.hero-block h1 { color: var(--black-000) }
+#hero-2 header.hero-block h2 { color: var(--black-000) }
+#hero-2 header.hero-block a.btn-secondary:link,
+#hero-2  header.hero-block a.btn-secondary:visited { color: var(--black-000) }
 
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { color: var(--black-000) }
+#hero-2  header.hero-block a.btn-primary:link,
+#hero-2  header.hero-block a.btn-primary:visited { color: var(--black-000) }
 
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { background-color: var(--green-500) }
+#hero-2 header.hero-block a.btn-primary:link,
+#hero-2  header.hero-block a.btn-primary:visited { background-color: var(--green-500) }
 
-header.hero-block a.btn-primary:link,
-header.hero-block a.btn-primary:visited { border-color: var(--green-500) }
+#hero-2 header.hero-block a.btn-primary:link,
+#hero-2 header.hero-block a.btn-primary:visited { border-color: var(--green-500) }
 
-header.hero-block a.btn-secondary:link,
-header.hero-block a.btn-secondary:visited { background-color: var(--green-500) }
+#hero-2 header.hero-block a.btn-secondary:link,
+#hero-2 header.hero-block a.btn-secondary:visited { background-color: var(--green-500) }
 
-header.hero-block a.btn-secondary:link,
-header.hero-block a.btn-secondary:visited { border-color: var(--green-500) }
+#hero-2 header.hero-block a.btn-secondary:link,
+#hero-2 header.hero-block a.btn-secondary:visited { border-color: var(--green-500) }
 
 
 
