@@ -65,6 +65,8 @@ select {
 /* Web page */
 body {
 	background-color: #ffffbd;
+	font-family:'Merriweather',serif;
+
 }
 
 /* Main heading */
